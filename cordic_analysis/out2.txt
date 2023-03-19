@@ -1,0 +1,17 @@
+ Stage: 0  x_out[0] = 9b74e y_out[0] = 9b74e z_out[0] = 36f03
+ Stage: 1  x_out[1] = 4dba7 y_out[1] = e92f5 z_out[1] = 3c03ea
+ Stage: 2  x_out[2] = 88064 y_out[2] = d5c0c z_out[2] = 3fef58
+ Stage: 3  x_out[3] = a2be5 y_out[3] = c4c00 z_out[3] = 1ecb3
+ Stage: 4  x_out[4] = 96725 y_out[4] = ceebe z_out[4] = ed09
+ Stage: 5  x_out[5] = 8ffb0 y_out[5] = d39f7 z_out[5] = 6d14
+ Stage: 6  x_out[6] = 8cac9 y_out[6] = d5df5 z_out[6] = 2d16
+ Stage: 7  x_out[7] = 8b00e y_out[7] = d6f8a z_out[7] = d17
+ Stage: 8  x_out[8] = 8a29f y_out[8] = d783a z_out[8] = 3ffd18
+ Stage: 9  x_out[9] = 8a95b y_out[9] = d73e9 z_out[9] = 517
+ Stage: a  x_out[a] = 8a5ff y_out[a] = d7613 z_out[a] = 118
+ Stage: b  x_out[b] = 8a451 y_out[b] = d7727 z_out[b] = 3fff19
+ Stage: c  x_out[c] = 8a528 y_out[c] = d769d z_out[c] = 19
+ Stage: d  x_out[d] = 8a4bd y_out[d] = d76e2 z_out[d] = 3fff99
+ Stage: e  x_out[e] = 8a4f2 y_out[e] = d76c0 z_out[e] = 3fffd9
+ Stage: f  x_out[f] = 8a50c y_out[f] = d76af z_out[f] = 3ffff9
+0.540295 0.540302
