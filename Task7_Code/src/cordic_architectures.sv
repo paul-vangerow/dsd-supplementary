@@ -42,9 +42,9 @@ wire [21:0] THETA_I;
 assign I_VAL = (count > 1) ? ((count == 2) ? (I+8) : (I+12)) : ((count == 0) ? (I) : (I+4));
 assign THETA_I = (count > 1) ? ((count == 2) ? (THETA_I2) : (THETA_I3)) : ((count == 0) ? (THETA_I0) : (THETA_I1));
 
-assign xi_p = x_i + ~( z_i[21] != 0 ? ( ~( y_i >> I_VAL ) + 1) : ( y_i >> I_VAL ) ) + 1;
-assign yi_p = y_i + ( z_i[21] != 0 ? ( ~( x_i >> I_VAL ) + 1) : ( x_i >> I_VAL ) );
-assign zi_p = z_i + ~( z_i[21] != 0 ? ( ~( THETA_I ) + 1) : ( THETA_I ) ) + 1;
+assign xi_p = x_i - $signed( z_i[21] != 0 ? ( ~( $signed(y_i) >>> I_VAL ) + 1) : ( $signed(y_i) >>> I_VAL ) );
+assign yi_p = y_i + ( z_i[21] != 0 ? ( -($signed(x_i) >>> I_VAL )) : ( $signed(x_i) >>> I_VAL ) );
+assign zi_p = z_i - $signed( z_i[21] != 0 ? ( -($signed(THETA_I)) ) : ( $signed(THETA_I) ) );
 
 endmodule
 
@@ -222,7 +222,7 @@ module cordic_stage_multi_stage_throughput #(
                 pipeline_reg_z[ j / 4] <= z_out[j];
             end
         end
-        
+
         out_reg <= out_wire;
 
     end

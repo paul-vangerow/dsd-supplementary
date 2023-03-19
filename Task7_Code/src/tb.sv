@@ -27,7 +27,7 @@ module main_testbench;
     $display("%0d --- in == %0h, out = %0h", $time, in, out);
   end 
 
-  cordic_stage_multi_stage_throughput #(
+  cordic_stage_multi_stage_latency #(
     .NUM_STAGES(16)
   ) dut (
     .float_in(in),
