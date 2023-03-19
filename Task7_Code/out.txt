@@ -1,36 +1,97 @@
-I_VAL: 3, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 1fd5b, count: 0
-I_VAL: 2, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3eb6e, count: 0
-I_VAL: 1, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 76b19, count: 0
-I_VAL: 0, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: c90fd, count: 0
-I_VAL: 7, zi_p: 1ecb3, z_i: 3fef58, THETA_I: 1fff, count: 1
-I_VAL: 6, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3ffe, count: 1
-I_VAL: 5, zi_p: xxxxxx, z_i: 355bb6, THETA_I: 7ff5, count: 1
-I_VAL: 4, zi_p: xxxxxx, z_i: 1ecb3, THETA_I: ffaa, count: 1
-I_VAL: 11, zi_p: 3fef9f, z_i: 3fcfa0, THETA_I: 1ff, count: 2
-I_VAL: 10, zi_p: 3fafe8, z_i: 3f6fea, THETA_I: 3ff, count: 2
-I_VAL: 9, zi_p: 3f6fea, z_i: 3eeff5, THETA_I: 7ff, count: 2
-I_VAL: 8, zi_p: 3fff9e, z_i: 3fef9f, THETA_I: fff, count: 2
-I_VAL: 15, zi_p: 3fef9b, z_i: 3fed9c, THETA_I: 20, count: 3
-I_VAL: 14, zi_p: b98, z_i: 799, THETA_I: 40, count: 3
-I_VAL: 13, zi_p: 799, z_i: 3fff9a, THETA_I: 80, count: 3
-I_VAL: 12, zi_p: 3fff9a, z_i: 3fef9b, THETA_I: 100, count: 3
-I_VAL: 3, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 1fd5b, count: 0
-I_VAL: 2, zi_p: xxxxxx, z_i: 100180, THETA_I: 3eb6e, count: 0
-I_VAL: 1, zi_p: 100180, z_i: 100100, THETA_I: 76b19, count: 0
-I_VAL: 0, zi_p: 100100, z_i: 100000, THETA_I: c90fd, count: 0
-I_VAL: 7, zi_p: 1ecb3, z_i: 3fef58, THETA_I: 1fff, count: 1
-I_VAL: 6, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3ffe, count: 1
-I_VAL: 5, zi_p: xxxxxx, z_i: 355bb6, THETA_I: 7ff5, count: 1
-I_VAL: 4, zi_p: xxxxxx, z_i: 1ecb3, THETA_I: ffaa, count: 1
-I_VAL: 11, zi_p: 3fef9f, z_i: 3fcfa0, THETA_I: 1ff, count: 2
-I_VAL: 10, zi_p: 3fafe8, z_i: 3f6fea, THETA_I: 3ff, count: 2
-I_VAL: 9, zi_p: 3f6fea, z_i: 3eeff5, THETA_I: 7ff, count: 2
-I_VAL: 8, zi_p: 3fff9e, z_i: 3fef9f, THETA_I: fff, count: 2
-I_VAL: 15, zi_p: 3fef9b, z_i: 3fed9c, THETA_I: 20, count: 3
-I_VAL: 14, zi_p: b98, z_i: 799, THETA_I: 40, count: 3
-I_VAL: 13, zi_p: 799, z_i: 3fff9a, THETA_I: 80, count: 3
-I_VAL: 12, zi_p: 3fff9a, z_i: 3fef9b, THETA_I: 100, count: 3
-I_VAL: 3, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 1fd5b, count: 0
-I_VAL: 2, zi_p: xxxxxx, z_i: 100180, THETA_I: 3eb6e, count: 0
-I_VAL: 1, zi_p: 100180, z_i: 100100, THETA_I: 76b19, count: 0
-I_VAL: 0, zi_p: 100100, z_i: 100000, THETA_I: c90fd, count: 0
+
+0 3, 1fd5b
+0 2, 3eb6e
+0 1, 76b19
+0 0, c90fd
+1 7, 1fff
+1 6, 3ffe
+1 5, 7ff5
+1 4, ffaa
+2 11, 1ff
+2 10, 3ff
+2 9, 7ff
+2 8, fff
+3 11, 1ff
+3 10, 3ff
+3 9, 7ff
+3 8, fff
+3 11, 20
+3 10, 40
+3 9, 80
+3 8, 100
+3 15, 20
+3 14, 40
+3 13, 80
+3 12, 100
+4 15, 20
+4 14, 40
+4 13, 80
+4 12, 100
+4 15, 2
+4 14, 4
+4 13, 8
+4 12, 10
+4 19, 2
+4 18, 4
+4 17, 8
+4 16, 10
+0 19, 1fd5b
+0 18, 3eb6e
+0 17, 76b19
+0 16, c90fd
+0 3, 1fd5b
+0 2, 3eb6e
+0 1, 76b19
+0 0, c90fd
+1 3, 1fd5b
+1 2, 3eb6e
+1 1, 76b19
+1 0, c90fd
+1 3, 1fff
+1 2, 3ffe
+1 1, 7ff5
+1 0, ffaa
+1 7, 1fff
+1 6, 3ffe
+1 5, 7ff5
+1 4, ffaa
+2 7, 1ff
+2 6, 3ff
+2 5, 7ff
+2 4, fff
+2 11, 1ff
+2 10, 3ff
+2 9, 7ff
+2 8, fff
+3 11, 1ff
+3 10, 3ff
+3 9, 7ff
+3 8, fff
+3 11, 20
+3 10, 40
+3 9, 80
+3 8, 100
+3 15, 20
+3 14, 40
+3 13, 80
+3 12, 100
+4 15, 20
+4 14, 40
+4 13, 80
+4 12, 100
+4 15, 2
+4 14, 4
+4 13, 8
+4 12, 10
+4 19, 2
+4 18, 4
+4 17, 8
+4 16, 10
+0 19, 1fd5b
+0 18, 3eb6e
+0 17, 76b19
+0 16, c90fd
+0 3, 1fd5b
+0 2, 3eb6e
+0 1, 76b19
+0 0, c90fd

@@ -23,7 +23,8 @@ module cordic_stage_basic_l #(
     parameter THETA_I0 =     22'h2243f,
     parameter THETA_I1 =     22'h2243f,
     parameter THETA_I2 =     22'h2243f,
-    parameter THETA_I3 =     22'h2243f
+    parameter THETA_I3 =     22'h2243f,
+    parameter THETA_I4 =     22'h2243f
 ) (
     input  wire[21:0] x_i, 
     input  wire[21:0] y_i, 
@@ -39,8 +40,12 @@ module cordic_stage_basic_l #(
 wire [21:0] I_VAL;
 wire [21:0] THETA_I;
 
-assign I_VAL = (count > 1) ? ((count == 2) ? (I+8) : (I+12)) : ((count == 0) ? (I) : (I+4));
-assign THETA_I = (count > 1) ? ((count == 2) ? (THETA_I2) : (THETA_I3)) : ((count == 0) ? (THETA_I0) : (THETA_I1));
+always @ (*) begin
+    $display("%0d %0d, %0h", count, I_VAL, THETA_I);
+end
+
+assign I_VAL = (count > 1) ? ((count == 2) ? (I+8) : (((count == 3) ? (I+12) : (I+16)))) : ((count == 0) ? (I) : (I+4));
+assign THETA_I = (count > 1) ? ((count == 2) ? (THETA_I2) : (((count == 3) ? (THETA_I3) : (THETA_I4)))) : ((count == 0) ? (THETA_I0) : (THETA_I1));
 
 assign xi_p = x_i - $signed( z_i[21] != 0 ? ( ~( $signed(y_i) >>> I_VAL ) + 1) : ( $signed(y_i) >>> I_VAL ) );
 assign yi_p = y_i + ( z_i[21] != 0 ? ( -($signed(x_i) >>> I_VAL )) : ( $signed(x_i) >>> I_VAL ) );
@@ -140,7 +145,8 @@ module cordic_stage_multi_stage_latency #(
                 .THETA_I0    (atan_table[(n)*22+:22]), // 0 1 2 3
                 .THETA_I1    (atan_table[(n+4)*22+:22]), // 4 5 6 7
                 .THETA_I2    (atan_table[(n+8)*22+:22]), // 8 9 10 11
-                .THETA_I3    (atan_table[(n+12)*22+:22]) // 12 13 14 15 
+                .THETA_I3    (atan_table[(n+12)*22+:22]), // 12 13 14 15 
+                .THETA_I4    (atan_table[(n+16)*22+:22]) // 16 17 18 19 
             ) istage ( 
                 .x_i        (x_in[n]),
                 .y_i        (y_in[n]),

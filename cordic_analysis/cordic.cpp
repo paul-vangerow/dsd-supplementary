@@ -31,14 +31,14 @@ private:
     }
     
     int32_t xi_p(int32_t xi, int32_t yi, int32_t zi){
-        std::cout << "I_VAL: " << i;
-        std::cout << " xi: "<< std::hex  << (xi & 0x3FFFFF);
-        std::cout << " yi: "<< std::hex  << (yi & 0x3FFFFF);
-        std::cout << " zi: " << std::hex << (zi & 0x3FFFFF);
-        std::cout << " z[21]: " << ((zi >> 20) &0x1);
-        std::cout << " (yi >> i): " << ((yi >> i) & 0x3FFFFF);
-        std::cout << " inv_sign( (yi >> i), (zi < 0) ): " << std::hex << (-1* (inv_sign( (yi >> i), (zi < 0) )) & 0x3FFFFF);
-        std::cout << " xi_p: " << std::hex << ( ( xi - inv_sign( (yi >> i), (zi < 0) ) ) & 0x3FFFFF) << std::endl;
+        // std::cout << "I_VAL: " << i;
+        // std::cout << " xi: "<< std::hex  << (xi & 0x3FFFFF);
+        // std::cout << " yi: "<< std::hex  << (yi & 0x3FFFFF);
+        // std::cout << " zi: " << std::hex << (zi & 0x3FFFFF);
+        // std::cout << " z[21]: " << ((zi >> 20) &0x1);
+        // std::cout << " (yi >> i): " << ((yi >> i) & 0x3FFFFF);
+        // std::cout << " inv_sign( (yi >> i), (zi < 0) ): " << std::hex << (-1* (inv_sign( (yi >> i), (zi < 0) )) & 0x3FFFFF);
+        // std::cout << " xi_p: " << std::hex << ( ( xi - inv_sign( (yi >> i), (zi < 0) ) ) & 0x3FFFFF) << std::endl;
         
         
         return xi - inv_sign( (yi >> i), (zi < 0) );
@@ -125,7 +125,7 @@ float f_fl(int32_t number){
 int main() {
     // Write C++ code here
     
-    int32_t n = 16;
+    int32_t n = 18;
     
     int32_t input_dist_number = 1;
     int32_t MSE_RUNS = 1;
@@ -169,7 +169,7 @@ int main() {
 
         for (int j = 0; j < input_dist_number; j++){
         
-            float a = 0.07; //(float)dis(gen); // Generate a random input value
+            float a = 0.75; //(float)dis(gen); // Generate a random input value
             
             std::cout << std::hex << fl_f(a) << std::endl;
             std::tuple<int32_t, int32_t, int32_t> passer = std::make_tuple(K, 0, fl_f(a));
