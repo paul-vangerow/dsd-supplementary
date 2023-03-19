@@ -12,9 +12,9 @@ module cordic_stage_basic #(
 
 // Single Cordic Stage
 
-assign xi_p = x_i + ~( z_i[21] != 0 ? ( ~( y_i >> I ) + 1) : ( y_i >> I ) ) + 1;
-assign yi_p = y_i + ( z_i[21] != 0 ? ( ~( x_i >> I ) + 1) : ( x_i >> I ) );
-assign zi_p = z_i + ~( z_i[21] != 0 ? ( ~( THETA_I ) + 1) : ( THETA_I ) ) + 1;
+assign xi_p = x_i - $signed( z_i[21] != 0 ? ( ~( $signed(y_i) >>> I ) + 1) : ( $signed(y_i) >>> I ) );
+assign yi_p = y_i + ( z_i[21] != 0 ? ( -($signed(x_i) >>> I )) : ( $signed(x_i) >>> I ) );
+assign zi_p = z_i - $signed( z_i[21] != 0 ? ( -($signed(THETA_I)) ) : ( $signed(THETA_I) ) );
 
 endmodule
 
@@ -185,21 +185,21 @@ module cordic_stage_multi_stage_throughput #(
     wire [21:0] fixed_in;
     wire [21:0] fixed_out;
 
-    wire signed [21:0] x_in[0:NUM_STAGES];
-    wire signed [21:0] y_in[0:NUM_STAGES];
-    wire signed [21:0] z_in[0:NUM_STAGES];
+    wire  [21:0] x_in[0:NUM_STAGES];
+    wire  [21:0] y_in[0:NUM_STAGES];
+    wire  [21:0] z_in[0:NUM_STAGES];
 
-    wire signed [21:0] x_out[0:NUM_STAGES-1];
-    wire signed [21:0] y_out[0:NUM_STAGES-1];
-    wire signed [21:0] z_out[0:NUM_STAGES-1];
+    wire  [21:0] x_out[0:NUM_STAGES-1];
+    wire  [21:0] y_out[0:NUM_STAGES-1];
+    wire  [21:0] z_out[0:NUM_STAGES-1];
 
-    wire signed [31:0] out_wire;
+    wire  [31:0] out_wire;
 
-    reg signed [21:0] pipeline_reg_x[0:4];
-    reg signed [21:0] pipeline_reg_y[0:4];
-    reg signed [21:0] pipeline_reg_z[0:4];
+    reg  [21:0] pipeline_reg_x[0:4];
+    reg  [21:0] pipeline_reg_y[0:4];
+    reg  [21:0] pipeline_reg_z[0:4];
 
-    reg signed [31:0] out_reg;
+    reg  [31:0] out_reg;
 
     assign x_in[0] = k_table[(NUM_STAGES-1)*22+:22];
     assign y_in[0] = 0;
@@ -207,11 +207,16 @@ module cordic_stage_multi_stage_throughput #(
 
     assign float_out = out_reg;
 
+    // always @ (*) begin
+    //     $display("I_VAL: %0d xi_p: %0h x_i: %0h THETA_I: %0h", I, xi_p, x_i, THETA_I);
+    // end
+
     integer j;
     always @ (posedge clk) begin
 			
         for (j = 0; j < NUM_STAGES; j=j+1) begin
             if ( j % 4 == 2 ) begin
+                // $display("J: %0d, J/4: %0d, x_out[j] = %0h", j, (j/4), x_out[j]);
                 pipeline_reg_x[ j / 4] <= x_out[j];
                 pipeline_reg_y[ j / 4] <= y_out[j];
                 pipeline_reg_z[ j / 4] <= z_out[j];
