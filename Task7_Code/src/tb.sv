@@ -15,8 +15,8 @@ module main_testbench;
   
   initial begin 
     clk = 0;
-    input_val = 32'h3f400000;
-    repeat(20) begin
+    input_val = 32'h3f800000;
+    repeat(12) begin
       #10;
       clk = ~clk;
     end
@@ -24,7 +24,7 @@ module main_testbench;
   
   always @ (posedge clk) begin
 
-    // $display("%0d --- in == %0h, out = %0h", $time, in, out);
+    $display("%0d --- in == %0h, out = %0h", $time, in, out);
   end 
 
   cordic_stage_multi_stage_latency #(

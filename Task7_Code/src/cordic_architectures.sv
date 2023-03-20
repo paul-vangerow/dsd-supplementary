@@ -37,15 +37,33 @@ module cordic_stage_basic_l #(
 
 // Single Cordic Stage
 
-wire [21:0] I_VAL;
-wire [21:0] THETA_I;
+reg [21:0] I_VAL;
+reg [21:0] THETA_I;
 
-always @ (*) begin
-    $display("%0d %0d, %0h", count, I_VAL, THETA_I);
+always @ (count) begin
+    case ( ((I == 3) ? (count - 3'b1) :  count) )
+        3'b001 : begin
+                    THETA_I = THETA_I1;
+                    I_VAL = I + 4;
+                 end
+        3'b010 : begin
+                    THETA_I = THETA_I2;
+                    I_VAL = I + 8;
+                 end
+        3'b011 : begin
+                    THETA_I = THETA_I3;
+                    I_VAL = I + 12;
+                 end
+        3'b100 : begin
+                    THETA_I = THETA_I1;
+                    I_VAL = I + 16;
+                 end
+        default : begin
+                    THETA_I = THETA_I0;
+                    I_VAL = I;
+                 end
+    endcase
 end
-
-assign I_VAL = (count > 1) ? ((count == 2) ? (I+8) : (((count == 3) ? (I+12) : (I+16)))) : ((count == 0) ? (I) : (I+4));
-assign THETA_I = (count > 1) ? ((count == 2) ? (THETA_I2) : (((count == 3) ? (THETA_I3) : (THETA_I4)))) : ((count == 0) ? (THETA_I0) : (THETA_I1));
 
 assign xi_p = x_i - $signed( z_i[21] != 0 ? ( ~( $signed(y_i) >>> I_VAL ) + 1) : ( $signed(y_i) >>> I_VAL ) );
 assign yi_p = y_i + ( z_i[21] != 0 ? ( -($signed(x_i) >>> I_VAL )) : ( $signed(x_i) >>> I_VAL ) );
@@ -213,16 +231,11 @@ module cordic_stage_multi_stage_throughput #(
 
     assign float_out = out_reg;
 
-    // always @ (*) begin
-    //     $display("I_VAL: %0d xi_p: %0h x_i: %0h THETA_I: %0h", I, xi_p, x_i, THETA_I);
-    // end
-
     integer j;
     always @ (posedge clk) begin
 			
         for (j = 0; j < NUM_STAGES; j=j+1) begin
             if ( j % 4 == 2 ) begin
-                // $display("J: %0d, J/4: %0d, x_out[j] = %0h", j, (j/4), x_out[j]);
                 pipeline_reg_x[ j / 4] <= x_out[j];
                 pipeline_reg_y[ j / 4] <= y_out[j];
                 pipeline_reg_z[ j / 4] <= z_out[j];

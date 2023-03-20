@@ -40,17 +40,17 @@ private:
         // std::cout << " inv_sign( (yi >> i), (zi < 0) ): " << std::hex << (-1* (inv_sign( (yi >> i), (zi < 0) )) & 0x3FFFFF);
         // std::cout << " xi_p: " << std::hex << ( ( xi - inv_sign( (yi >> i), (zi < 0) ) ) & 0x3FFFFF) << std::endl;
         
-        
+        std::cout << "I_VAL: " << i << " xi_p: " << std::hex << (( xi - inv_sign( (yi >> i), (zi < 0) )) & 0x3FFFFF) << " x_i: " << std::hex << (xi & 0x3FFFFF) << " THETA_I: " << std::hex << (thetai & 0x3FFFFF) << std::endl;
         return xi - inv_sign( (yi >> i), (zi < 0) );
     }
     
     int32_t yi_p(int32_t xi, int32_t yi, int32_t zi){
-        // std::cout << "I_VAL: " << i << " yi_p: " << std::hex << ( (yi + inv_sign( (xi >> i), (zi < 0) )) & 0x3FFFFF) << " y_i: " << std::hex << (yi & 0x3FFFFF) << " THETA_I: " << std::hex << (thetai & 0x3FFFFF) << std::endl;
+        std::cout << "I_VAL: " << i << " yi_p: " << std::hex << ( (yi + inv_sign( (xi >> i), (zi < 0) )) & 0x3FFFFF) << " y_i: " << std::hex << (yi & 0x3FFFFF) << " THETA_I: " << std::hex << (thetai & 0x3FFFFF) << std::endl;
         return yi + inv_sign( (xi >> i), (zi < 0) );
     }
     
     int32_t zi_p(int32_t zi){
-        // std::cout << "I_VAL: " << i << " zi_p: " << std::hex << ( (zi - inv_sign( thetai , (zi < 0) ) ) & 0x3FFFFF) << " z_i: " << std::hex << (zi & 0x3FFFFF) << " THETA_I: " << std::hex << (thetai & 0x3FFFFF) << std::endl;
+        std::cout << "I_VAL: " << i << " zi_p: " << std::hex << ( (zi - inv_sign( thetai , (zi < 0) ) ) & 0x3FFFFF) << " z_i: " << std::hex << (zi & 0x3FFFFF) << " THETA_I: " << std::hex << (thetai & 0x3FFFFF) << std::endl;
         return zi - inv_sign( thetai , (zi < 0) );
     }
     
@@ -140,16 +140,12 @@ int main() {
         float tanangle = atan( pow(2, -i) );
         int32_t angle = fl_f( tanangle ); // Should be precomputed
 
-        // std::cout << tanangle << " " << std::hex << angle << std::endl;
-
         long double temp = 1;
         for (int l = 0; l <= i; l++){
             temp = temp * cosl(atanl( pow(2, -l) )); 
         }
         
         K = fl_f((float)temp); // Should be precomputed
-
-        // std::cout << i << " " << std::hex << (K & 0x3FFFFF) << " " << std::hex << (angle & 0x3FFFFF) << std::endl;
         
         stages[i] = new Cordic_Stage(i, angle);
     }

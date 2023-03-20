@@ -1,97 +1,618 @@
+0 x
+0 x
+0 x
+0 x
+0 0
+I_VAL: 0, xi_p: xxxxxx, x_i: 9b74e, THETA_I: c90fd
+I_VAL: 0, yi_p: xxxxxx, y_i: 0, THETA_I: c90fd
+I_VAL: 0, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: c90fd
 
-0 3, 1fd5b
-0 2, 3eb6e
-0 1, 76b19
-0 0, c90fd
-1 7, 1fff
-1 6, 3ffe
-1 5, 7ff5
-1 4, ffaa
-2 11, 1ff
-2 10, 3ff
-2 9, 7ff
-2 8, fff
-3 11, 1ff
-3 10, 3ff
-3 9, 7ff
-3 8, fff
-3 11, 20
-3 10, 40
-3 9, 80
-3 8, 100
-3 15, 20
-3 14, 40
-3 13, 80
-3 12, 100
-4 15, 20
-4 14, 40
-4 13, 80
-4 12, 100
-4 15, 2
-4 14, 4
-4 13, 8
-4 12, 10
-4 19, 2
-4 18, 4
-4 17, 8
-4 16, 10
-0 19, 1fd5b
-0 18, 3eb6e
-0 17, 76b19
-0 16, c90fd
-0 3, 1fd5b
-0 2, 3eb6e
-0 1, 76b19
-0 0, c90fd
-1 3, 1fd5b
-1 2, 3eb6e
-1 1, 76b19
-1 0, c90fd
-1 3, 1fff
-1 2, 3ffe
-1 1, 7ff5
-1 0, ffaa
-1 7, 1fff
-1 6, 3ffe
-1 5, 7ff5
-1 4, ffaa
-2 7, 1ff
-2 6, 3ff
-2 5, 7ff
-2 4, fff
-2 11, 1ff
-2 10, 3ff
-2 9, 7ff
-2 8, fff
-3 11, 1ff
-3 10, 3ff
-3 9, 7ff
-3 8, fff
-3 11, 20
-3 10, 40
-3 9, 80
-3 8, 100
-3 15, 20
-3 14, 40
-3 13, 80
-3 12, 100
-4 15, 20
-4 14, 40
-4 13, 80
-4 12, 100
-4 15, 2
-4 14, 4
-4 13, 8
-4 12, 10
-4 19, 2
-4 18, 4
-4 17, 8
-4 16, 10
-0 19, 1fd5b
-0 18, 3eb6e
-0 17, 76b19
-0 16, c90fd
-0 3, 1fd5b
-0 2, 3eb6e
-0 1, 76b19
-0 0, c90fd
+0 1
+I_VAL: 1, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: 76b19
+I_VAL: 1, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 76b19
+I_VAL: 1, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 76b19
+
+0 2
+I_VAL: 2, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: 3eb6e
+I_VAL: 2, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 3eb6e
+I_VAL: 2, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3eb6e
+
+0 3
+0 0
+I_VAL: 0, xi_p: 9b74e, x_i: 9b74e, THETA_I: c90fd
+I_VAL: 0, yi_p: xxxxxx, y_i: 0, THETA_I: c90fd
+I_VAL: 0, zi_p: xxxxxx, z_i: Xxxxxx, THETA_I: c90fd
+
+0 1
+I_VAL: 1, xi_p: xxxxxx, x_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 76b19
+I_VAL: 1, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 76b19
+
+0 0
+I_VAL: 0, xi_p: 9b74e, x_i: 9b74e, THETA_I: c90fd
+I_VAL: 0, yi_p: 9b74e, y_i: 0, THETA_I: c90fd
+I_VAL: 0, zi_p: xxxxxx, z_i: Xxxxxx, THETA_I: c90fd
+
+0 1
+I_VAL: 1, xi_p: xxxxxx, x_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, yi_p: xxxxxx, y_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 76b19
+
+0 0
+I_VAL: 0, xi_p: 9b74e, x_i: 9b74e, THETA_I: c90fd
+I_VAL: 0, yi_p: 9b74e, y_i: 0, THETA_I: c90fd
+I_VAL: 0, zi_p: xxxxxx, z_i: Xxxxx, THETA_I: c90fd
+
+0 0
+I_VAL: 0, xi_p: 9b74e, x_i: 9b74e, THETA_I: c90fd
+I_VAL: 0, yi_p: 9b74e, y_i: 0, THETA_I: c90fd
+I_VAL: 0, zi_p: 3f6f03, z_i: c0000, THETA_I: c90fd
+
+0 1
+I_VAL: 1, xi_p: xxxxxx, x_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, yi_p: xxxxxx, y_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, zi_p: xxxxxx, z_i: 3f6f03, THETA_I: 76b19
+
+0 1
+I_VAL: 1, xi_p: xxxxxx, x_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, yi_p: 4dba7, y_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, zi_p: 6da1c, z_i: 3f6f03, THETA_I: 76b19
+
+0 2
+I_VAL: 2, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: 3eb6e
+I_VAL: 2, yi_p: xxxxxx, y_i: 4dba7, THETA_I: 3eb6e
+I_VAL: 2, zi_p: xxxxxx, z_i: 6da1c, THETA_I: 3eb6e
+
+0 1
+I_VAL: 1, xi_p: e92f5, x_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, yi_p: 4dba7, y_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, zi_p: 6da1c, z_i: 3f6f03, THETA_I: 76b19
+
+0 2
+I_VAL: 2, xi_p: d5c0c, x_i: e92f5, THETA_I: 3eb6e
+I_VAL: 2, yi_p: 88064, y_i: 4dba7, THETA_I: 3eb6e
+I_VAL: 2, zi_p: 2eeae, z_i: 6da1c, THETA_I: 3eb6e
+
+1 3
+I_VAL: 3, xi_p: xxxxxx, x_i: d5c0c, THETA_I: 1fd5b
+I_VAL: 3, yi_p: xxxxxx, y_i: 88064, THETA_I: 1fd5b
+I_VAL: 3, zi_p: xxxxxx, z_i: 2eeae, THETA_I: 1fd5b
+
+1 2
+1 1
+1 0
+1 6
+I_VAL: 6, xi_p: d5c0c, x_i: e92f5, THETA_I: 3ffe
+I_VAL: 6, yi_p: 88064, y_i: 4dba7, THETA_I: 3ffe
+I_VAL: 6, zi_p: 69a1e, z_i: 6da1c, THETA_I: 3ffe
+
+1 5
+I_VAL: 5, xi_p: e92f5, x_i: 9b74e, THETA_I: 7ff5
+I_VAL: 5, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 7ff5
+I_VAL: 5, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 7ff5
+
+1 4
+I_VAL: 4, xi_p: 9b74e, x_i: xxxxxx, THETA_I: ffaa
+I_VAL: 4, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: ffaa
+I_VAL: 4, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: ffaa
+
+1 3
+I_VAL: 3, xi_p: c4c00, x_i: d5c0c, THETA_I: 1fd5b
+I_VAL: 3, yi_p: a2be5, y_i: 88064, THETA_I: 1fd5b
+I_VAL: 3, zi_p: f153, z_i: 2eeae, THETA_I: 1fd5b
+
+1 6
+I_VAL: 6, xi_p: d5c0c, x_i: e92f5, THETA_I: 3ffe
+I_VAL: 6, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 6, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3ffe
+
+1 4
+I_VAL: 4, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: ffaa
+I_VAL: 4, yi_p: xxxxxx, y_i: a2be5, THETA_I: ffaa
+I_VAL: 4, zi_p: xxxxxx, z_i: f153, THETA_I: ffaa
+
+1 5
+I_VAL: 5, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: 7ff5
+I_VAL: 5, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 7ff5
+I_VAL: 5, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 7ff5
+
+1 6
+I_VAL: 6, xi_p: e7f87, x_i: e92f5, THETA_I: 3ffe
+I_VAL: 6, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 6, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3ffe
+
+1 4
+I_VAL: 4, xi_p: xxxxxx, x_i: c4c00, THETA_I: ffaa
+I_VAL: 4, yi_p: af0a5, y_i: a2be5, THETA_I: ffaa
+I_VAL: 4, zi_p: xxxxxx, z_i: f153, THETA_I: ffaa
+
+1 6
+I_VAL: 6, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 6, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 6, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3ffe
+
+1 5
+I_VAL: 5, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: 7ff5
+I_VAL: 5, yi_p: xxxxxx, y_i: af0a5, THETA_I: 7ff5
+I_VAL: 5, zi_p: xxxxxx, z_i: 3ff1a9, THETA_I: 7ff5
+
+1 4
+I_VAL: 4, xi_p: xxxxxx, x_i: c4c00, THETA_I: ffaa
+I_VAL: 4, yi_p: af0a5, y_i: a2be5, THETA_I: ffaa
+I_VAL: 4, zi_p: 3ff1a9, z_i: f153, THETA_I: ffaa
+
+1 4
+I_VAL: 4, xi_p: ba942, x_i: c4c00, THETA_I: ffaa
+I_VAL: 4, yi_p: af0a5, y_i: a2be5, THETA_I: ffaa
+I_VAL: 4, zi_p: 3ff1a9, z_i: f153, THETA_I: ffaa
+
+1 5
+I_VAL: 5, xi_p: xxxxxx, x_i: ba942, THETA_I: 7ff5
+I_VAL: 5, yi_p: a935b, y_i: af0a5, THETA_I: 7ff5
+I_VAL: 5, zi_p: 719e, z_i: 3ff1a9, THETA_I: 7ff5
+
+1 5
+I_VAL: 5, xi_p: c00c7, x_i: ba942, THETA_I: 7ff5
+I_VAL: 5, yi_p: a935b, y_i: af0a5, THETA_I: 7ff5
+I_VAL: 5, zi_p: 719e, z_i: 3ff1a9, THETA_I: 7ff5
+
+1 6
+I_VAL: 6, xi_p: xxxxxx, x_i: c00c7, THETA_I: 3ffe
+I_VAL: 6, yi_p: xxxxxx, y_i: a935b, THETA_I: 3ffe
+I_VAL: 6, zi_p: xxxxxx, z_i: 719e, THETA_I: 3ffe
+
+1 6
+I_VAL: 6, xi_p: bd67a, x_i: c00c7, THETA_I: 3ffe
+I_VAL: 6, yi_p: ac35e, y_i: a935b, THETA_I: 3ffe
+I_VAL: 6, zi_p: 31a0, z_i: 719e, THETA_I: 3ffe
+
+2 3
+2 6
+2 5
+2 4
+2 8
+I_VAL: 8, xi_p: ba942, x_i: ac66e, THETA_I: fff
+I_VAL: 8, yi_p: d02ed, y_i: c3e2d, THETA_I: fff
+I_VAL: 8, zi_p: 3e4444, z_i: 3e3445, THETA_I: fff
+
+2 9
+I_VAL: 9, xi_p: c00c7, x_i: ba942, THETA_I: 7ff
+I_VAL: 9, yi_p: bd61d, y_i: c3367, THETA_I: 7ff
+I_VAL: 9, zi_p: 3e4c43, z_i: 3e4444, THETA_I: 7ff
+
+2 10
+I_VAL: a, xi_p: bd67a, x_i: c00c7, THETA_I: 3ff
+I_VAL: a, yi_p: cd5a6, y_i: ca5a3, THETA_I: 3ff
+I_VAL: a, zi_p: 3db091, z_i: 3db490, THETA_I: 3ff
+
+2 7
+I_VAL: 7, xi_p: a7e0f, x_i: bd67a, THETA_I: 1fff
+I_VAL: 7, yi_p: c3e2d, y_i: ac35e, THETA_I: 1fff
+I_VAL: 7, zi_p: 11a1, z_i: 31a0, THETA_I: 1fff
+
+2 8
+I_VAL: 8, xi_p: aba30, x_i: a7e0f, THETA_I: fff
+I_VAL: 8, yi_p: c3367, y_i: c3e2d, THETA_I: fff
+I_VAL: 8, zi_p: 3e4444, z_i: 3e3445, THETA_I: fff
+
+2 9
+I_VAL: 9, xi_p: c00c7, x_i: aba30, THETA_I: 7ff
+I_VAL: 9, yi_p: c2d93, y_i: c3367, THETA_I: 7ff
+I_VAL: 9, zi_p: 3e4c43, z_i: 3e4444, THETA_I: 7ff
+
+2 10
+I_VAL: a, xi_p: bd67a, x_i: c00c7, THETA_I: 3ff
+I_VAL: a, yi_p: c3093, y_i: c2d93, THETA_I: 3ff
+I_VAL: a, zi_p: 3e4844, z_i: 3e4c43, THETA_I: 3ff
+
+2 7
+I_VAL: 7, xi_p: a7e0f, x_i: bd67a, THETA_I: 1fff
+I_VAL: 7, yi_p: adb0a, y_i: ac35e, THETA_I: 1fff
+I_VAL: 7, zi_p: 11a1, z_i: 31a0, THETA_I: 1fff
+
+2 10
+I_VAL: a, xi_p: bfd9e, x_i: c00c7, THETA_I: 3ff
+I_VAL: a, yi_p: c2a93, y_i: c2d93, THETA_I: 3ff
+I_VAL: a, zi_p: 3e5042, z_i: 3e4c43, THETA_I: 3ff
+
+2 8
+I_VAL: 8, xi_p: a8a4d, x_i: a7e0f, THETA_I: fff
+I_VAL: 8, yi_p: ad08c, y_i: adb0a, THETA_I: fff
+I_VAL: 8, zi_p: 21a0, z_i: 11a1, THETA_I: fff
+
+2 9
+I_VAL: 9, xi_p: ac0b1, x_i: a8a4d, THETA_I: 7ff
+I_VAL: 9, yi_p: acb2f, y_i: ad08c, THETA_I: 7ff
+I_VAL: 9, zi_p: 299f, z_i: 21a0, THETA_I: 7ff
+
+2 7
+I_VAL: 7, xi_p: bc0f4, x_i: bd67a, THETA_I: 1fff
+I_VAL: 7, yi_p: adb0a, y_i: ac35e, THETA_I: 1fff
+I_VAL: 7, zi_p: 11a1, z_i: 31a0, THETA_I: 1fff
+
+2 10
+I_VAL: a, xi_p: ac3da, x_i: ac0b1, THETA_I: 3ff
+I_VAL: a, yi_p: ac82f, y_i: acb2f, THETA_I: 3ff
+I_VAL: a, zi_p: 2d9e, z_i: 299f, THETA_I: 3ff
+
+2 8
+I_VAL: 8, xi_p: bb619, x_i: bc0f4, THETA_I: fff
+I_VAL: 8, yi_p: ae6ca, y_i: adb0a, THETA_I: fff
+I_VAL: 8, zi_p: 1a2, z_i: 11a1, THETA_I: fff
+
+2 9
+I_VAL: 9, xi_p: a9066, x_i: bb619, THETA_I: 7ff
+I_VAL: 9, yi_p: aec0f, y_i: ae6ca, THETA_I: 7ff
+I_VAL: 9, zi_p: 3ff9a3, z_i: 1a2, THETA_I: 7ff
+
+2 10
+I_VAL: a, xi_p: a9371, x_i: a9066, THETA_I: 3ff
+I_VAL: a, yi_p: aeebf, y_i: aec0f, THETA_I: 3ff
+I_VAL: a, zi_p: 3ff5a4, z_i: 3ff9a3, THETA_I: 3ff
+
+2 9
+I_VAL: 9, xi_p: bb0b1, x_i: bb619, THETA_I: 7ff
+I_VAL: 9, yi_p: aeca5, y_i: ae6ca, THETA_I: 7ff
+I_VAL: 9, zi_p: 3ff9a3, z_i: 1a2, THETA_I: 7ff
+
+2 10
+I_VAL: a, xi_p: a8dab, x_i: bb0b1, THETA_I: 3ff
+I_VAL: a, yi_p: aef49, y_i: aeca5, THETA_I: 3ff
+I_VAL: a, zi_p: 3ff5a4, z_i: 3ff9a3, THETA_I: 3ff
+
+2 9
+I_VAL: 9, xi_p: bb0a6, x_i: bb619, THETA_I: 7ff
+I_VAL: 9, yi_p: aeca5, y_i: ae6ca, THETA_I: 7ff
+I_VAL: 9, zi_p: 3ff9a3, z_i: 1a2, THETA_I: 7ff
+
+2 10
+I_VAL: a, xi_p: bb36c, x_i: bb0a6, THETA_I: 3ff
+I_VAL: a, yi_p: ae9b9, y_i: aeca5, THETA_I: 3ff
+I_VAL: a, zi_p: 3ffda2, z_i: 3ff9a3, THETA_I: 3ff
+
+2 10
+I_VAL: a, xi_p: bb361, x_i: bb0a6, THETA_I: 3ff
+I_VAL: a, yi_p: ae9b9, y_i: aeca5, THETA_I: 3ff
+I_VAL: a, zi_p: 3ffda2, z_i: 3ff9a3, THETA_I: 3ff
+
+3 7
+3 10
+3 9
+3 8
+3 11
+I_VAL: b, xi_p: b9d8e, x_i: bb361, THETA_I: 1ff
+I_VAL: b, yi_p: ae843, y_i: ae9b9, THETA_I: 1ff
+I_VAL: b, zi_p: 3fffa1, z_i: 3ffda2, THETA_I: 1ff
+
+3 14
+I_VAL: e, xi_p: bb361, x_i: bb0a6, THETA_I: 40
+I_VAL: e, yi_p: b0fce, y_i: b12ba, THETA_I: 40
+I_VAL: e, zi_p: 3fc5e5, z_i: 3fc5a5, THETA_I: 40
+
+3 13
+I_VAL: d, xi_p: bb0a6, x_i: bb619, THETA_I: 80
+I_VAL: d, yi_p: b12ba, y_i: b0cdf, THETA_I: 80
+I_VAL: d, zi_p: 3fce24, z_i: 3fcda4, THETA_I: 80
+
+3 12
+I_VAL: c, xi_p: bb619, x_i: b9ddb, THETA_I: 100
+I_VAL: c, yi_p: b0cdf, y_i: b011f, THETA_I: 100
+I_VAL: c, zi_p: 3fdea3, z_i: 3fdda3, THETA_I: 100
+
+3 14
+I_VAL: e, xi_p: bb361, x_i: bb0a6, THETA_I: 40
+I_VAL: e, yi_p: b128c, y_i: b12ba, THETA_I: 40
+I_VAL: e, zi_p: 3fc5e5, z_i: 3fc5a5, THETA_I: 40
+
+3 13
+I_VAL: d, xi_p: b9cd3, x_i: b9d2b, THETA_I: 80
+I_VAL: d, yi_p: ae72d, y_i: ae78a, THETA_I: 80
+I_VAL: d, zi_p: 121, z_i: a1, THETA_I: 80
+
+3 12
+I_VAL: c, xi_p: b9d2b, x_i: b9d8e, THETA_I: 100
+I_VAL: c, yi_p: ae78a, y_i: ae843, THETA_I: 100
+I_VAL: c, zi_p: a1, z_i: 3fffa1, THETA_I: 100
+
+3 11
+I_VAL: b, xi_p: bc934, x_i: bb361, THETA_I: 1ff
+I_VAL: b, yi_p: ae843, y_i: ae9b9, THETA_I: 1ff
+I_VAL: b, zi_p: 3fffa1, z_i: 3ffda2, THETA_I: 1ff
+
+3 14
+I_VAL: e, xi_p: b9cff, x_i: b9cd3, THETA_I: 40
+I_VAL: e, yi_p: ae6ff, y_i: ae72d, THETA_I: 40
+I_VAL: e, zi_p: 161, z_i: 121, THETA_I: 40
+
+3 13
+I_VAL: d, xi_p: b9e96, x_i: b9e3e, THETA_I: 80
+I_VAL: d, yi_p: ae72e, y_i: ae78a, THETA_I: 80
+I_VAL: d, zi_p: 121, z_i: a1, THETA_I: 80
+
+3 12
+I_VAL: c, xi_p: b9e3e, x_i: bc934, THETA_I: 100
+I_VAL: c, yi_p: ae78a, y_i: ae843, THETA_I: 100
+I_VAL: c, zi_p: a1, z_i: 3fffa1, THETA_I: 100
+
+3 11
+I_VAL: b, xi_p: bb4be, x_i: bb361, THETA_I: 1ff
+I_VAL: b, yi_p: ae843, y_i: ae9b9, THETA_I: 1ff
+I_VAL: b, zi_p: 3fffa1, z_i: 3ffda2, THETA_I: 1ff
+
+3 14
+I_VAL: e, xi_p: b9cff, x_i: b9e96, THETA_I: 40
+I_VAL: e, yi_p: ae75c, y_i: ae72e, THETA_I: 40
+I_VAL: e, zi_p: e1, z_i: 121, THETA_I: 40
+
+3 13
+I_VAL: d, xi_p: b9e96, x_i: bc9e2, THETA_I: 80
+I_VAL: d, yi_p: ae7e3, y_i: ae787, THETA_I: 80
+I_VAL: d, zi_p: 21, z_i: a1, THETA_I: 80
+
+3 12
+I_VAL: c, xi_p: bc9e2, x_i: bb4be, THETA_I: 100
+I_VAL: c, yi_p: ae787, y_i: ae843, THETA_I: 100
+I_VAL: c, zi_p: a1, z_i: 3fffa1, THETA_I: 100
+
+3 14
+I_VAL: e, xi_p: b9e6b, x_i: b9e96, THETA_I: 40
+I_VAL: e, yi_p: ae811, y_i: ae7e3, THETA_I: 40
+I_VAL: e, zi_p: 3fffe1, z_i: 21, THETA_I: 40
+
+3 13
+I_VAL: d, xi_p: bc98b, x_i: bb56c, THETA_I: 80
+I_VAL: d, yi_p: ae7e6, y_i: ae788, THETA_I: 80
+I_VAL: d, zi_p: 21, z_i: a1, THETA_I: 80
+
+3 12
+I_VAL: c, xi_p: bb56c, x_i: bb4be, THETA_I: 100
+I_VAL: c, yi_p: ae788, y_i: ae843, THETA_I: 100
+I_VAL: c, zi_p: a1, z_i: 3fffa1, THETA_I: 100
+
+3 14
+I_VAL: e, xi_p: bc960, x_i: bc98b, THETA_I: 40
+I_VAL: e, yi_p: ae815, y_i: ae7e6, THETA_I: 40
+I_VAL: e, zi_p: 3fffe1, z_i: 21, THETA_I: 40
+
+3 13
+I_VAL: d, xi_p: bb515, x_i: bb56c, THETA_I: 80
+I_VAL: d, yi_p: ae7e5, y_i: ae788, THETA_I: 80
+I_VAL: d, zi_p: 21, z_i: a1, THETA_I: 80
+
+3 14
+I_VAL: e, xi_p: bc960, x_i: bb515, THETA_I: 40
+I_VAL: e, yi_p: ae814, y_i: ae7e5, THETA_I: 40
+I_VAL: e, zi_p: 3fffe1, z_i: 21, THETA_I: 40
+
+3 14
+I_VAL: e, xi_p: bb4ea, x_i: bb515, THETA_I: 40
+I_VAL: e, yi_p: ae813, y_i: ae7e5, THETA_I: 40
+I_VAL: e, zi_p: 3fffe1, z_i: 21, THETA_I: 40
+
+4 11
+4 14
+4 13
+4 12
+4 16
+I_VAL: 10, xi_p: bb56c, x_i: bb647, THETA_I: ffaa
+I_VAL: 10, yi_p: ae5e2, y_i: ae69d, THETA_I: ffaa
+I_VAL: 10, zi_p: 3f0236, z_i: 1e0, THETA_I: ffaa
+
+4 17
+I_VAL: 11, xi_p: bb515, x_i: bb56c, THETA_I: 7ff5
+I_VAL: 11, yi_p: ae705, y_i: ae6a8, THETA_I: 7ff5
+I_VAL: 11, zi_p: 3e8241, z_i: 3f0236, THETA_I: 7ff5
+
+4 18
+I_VAL: 12, xi_p: bb4ea, x_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 12, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 12, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3ffe
+
+4 15
+I_VAL: f, xi_p: bb647, x_i: bb4ea, THETA_I: 20
+I_VAL: f, yi_p: ae69d, y_i: ae813, THETA_I: 20
+I_VAL: f, zi_p: 1, z_i: 3fffe1, THETA_I: 20
+
+4 16
+I_VAL: 10, xi_p: bb6f5, x_i: bb647, THETA_I: ffaa
+I_VAL: 10, yi_p: ae6a8, y_i: ae69d, THETA_I: ffaa
+I_VAL: 10, zi_p: 3f0236, z_i: 1e0, THETA_I: ffaa
+
+4 17
+I_VAL: 11, xi_p: bb515, x_i: bb6f5, THETA_I: 7ff5
+I_VAL: 11, yi_p: ae6ad, y_i: ae6a8, THETA_I: 7ff5
+I_VAL: 11, zi_p: 3e8241, z_i: 3f0236, THETA_I: 7ff5
+
+4 15
+I_VAL: f, xi_p: bb647, x_i: bb4ea, THETA_I: 20
+I_VAL: f, yi_p: ae7fc, y_i: ae813, THETA_I: 20
+I_VAL: f, zi_p: 1, z_i: 3fffe1, THETA_I: 20
+
+4 18
+I_VAL: 12, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 12, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 12, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3ffe
+
+4 17
+I_VAL: 11, xi_p: bb6f0, x_i: bb63d, THETA_I: 7ff5
+I_VAL: 11, yi_p: ae802, y_i: ae807, THETA_I: 7ff5
+I_VAL: 11, zi_p: 3f804c, z_i: 3f0057, THETA_I: 7ff5
+
+4 16
+I_VAL: 10, xi_p: bb63d, x_i: bb647, THETA_I: ffaa
+I_VAL: 10, yi_p: ae807, y_i: ae7fc, THETA_I: ffaa
+I_VAL: 10, zi_p: 3f0057, z_i: 1, THETA_I: ffaa
+
+4 15
+I_VAL: f, xi_p: bb4ff, x_i: bb4ea, THETA_I: 20
+I_VAL: f, yi_p: ae7fc, y_i: ae813, THETA_I: 20
+I_VAL: f, zi_p: 1, z_i: 3fffe1, THETA_I: 20
+
+4 17
+I_VAL: 11, xi_p: bb642, x_i: bb63d, THETA_I: 7ff5
+I_VAL: 11, yi_p: ae802, y_i: ae807, THETA_I: 7ff5
+I_VAL: 11, zi_p: 3f804c, z_i: 3f0057, THETA_I: 7ff5
+
+4 16
+I_VAL: 10, xi_p: bb4f5, x_i: bb4ff, THETA_I: ffaa
+I_VAL: 10, yi_p: ae807, y_i: ae7fc, THETA_I: ffaa
+I_VAL: 10, zi_p: 3f0057, z_i: 1, THETA_I: ffaa
+
+4 17
+I_VAL: 11, xi_p: bb4fa, x_i: bb4f5, THETA_I: 7ff5
+I_VAL: 11, yi_p: ae802, y_i: ae807, THETA_I: 7ff5
+I_VAL: 11, zi_p: 3f804c, z_i: 3f0057, THETA_I: 7ff5
+
+0 15
+0 18
+0 17
+0 16
+0 3
+0 2
+I_VAL: 2, xi_p: xxxxxx, x_i: bb4fa, THETA_I: 3eb6e
+I_VAL: 2, yi_p: xxxxxx, y_i: 6, THETA_I: 3eb6e
+I_VAL: 2, zi_p: xxxxxx, z_i: b804b, THETA_I: 3eb6e
+
+0 1
+I_VAL: 1, xi_p: bb4fa, x_i: bb4f5, THETA_I: 76b19
+I_VAL: 1, yi_p: 6, y_i: b, THETA_I: 76b19
+I_VAL: 1, zi_p: 3953d, z_i: b0056, THETA_I: 76b19
+
+0 0
+I_VAL: 0, xi_p: bb4f5, x_i: 9b74e, THETA_I: c90fd
+I_VAL: 0, yi_p: b, y_i: 0, THETA_I: c90fd
+I_VAL: 0, zi_p: 3f6f03, z_i: c0000, THETA_I: c90fd
+
+0 1
+I_VAL: 1, xi_p: bb4fa, x_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, yi_p: f91c8, y_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, zi_p: 3803ea, z_i: 3f6f03, THETA_I: 76b19
+
+0 0
+I_VAL: 0, xi_p: 9b74e, x_i: 9b74e, THETA_I: c90fd
+I_VAL: 0, yi_p: 9b74e, y_i: 0, THETA_I: c90fd
+I_VAL: 0, zi_p: 3f6f03, z_i: c0000, THETA_I: c90fd
+
+0 2
+I_VAL: 2, xi_p: bb4f9, x_i: bb4fa, THETA_I: 3eb6e
+I_VAL: 2, yi_p: 127f06, y_i: f91c8, THETA_I: 3eb6e
+I_VAL: 2, zi_p: 34187c, z_i: 3803ea, THETA_I: 3eb6e
+
+0 1
+I_VAL: 1, xi_p: 4dba7, x_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, yi_p: 4dba7, y_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, zi_p: 6da1c, z_i: 3f6f03, THETA_I: 76b19
+
+0 2
+I_VAL: 2, xi_p: 4dba8, x_i: 4dba7, THETA_I: 3eb6e
+I_VAL: 2, yi_p: 3a4be, y_i: 4dba7, THETA_I: 3eb6e
+I_VAL: 2, zi_p: ac58a, z_i: 6da1c, THETA_I: 3eb6e
+
+0 1
+I_VAL: 1, xi_p: e92f5, x_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, yi_p: 4dba7, y_i: 9b74e, THETA_I: 76b19
+I_VAL: 1, zi_p: 6da1c, z_i: 3f6f03, THETA_I: 76b19
+
+0 2
+I_VAL: 2, xi_p: 8c019, x_i: e92f5, THETA_I: 3eb6e
+I_VAL: 2, yi_p: 3a4be, y_i: 4dba7, THETA_I: 3eb6e
+I_VAL: 2, zi_p: ac58a, z_i: 6da1c, THETA_I: 3eb6e
+
+0 2
+I_VAL: 2, xi_p: d5c0c, x_i: e92f5, THETA_I: 3eb6e
+I_VAL: 2, yi_p: 88064, y_i: 4dba7, THETA_I: 3eb6e
+I_VAL: 2, zi_p: 2eeae, z_i: 6da1c, THETA_I: 3eb6e
+
+1 3
+I_VAL: 3, xi_p: xxxxxx, x_i: d5c0c, THETA_I: 1fd5b
+I_VAL: 3, yi_p: xxxxxx, y_i: 88064, THETA_I: 1fd5b
+I_VAL: 3, zi_p: xxxxxx, z_i: 2eeae, THETA_I: 1fd5b
+
+1 2
+1 1
+1 0
+1 4
+I_VAL: 4, xi_p: 9b74e, x_i: xxxxxx, THETA_I: ffaa
+I_VAL: 4, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: ffaa
+I_VAL: 4, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: ffaa
+
+1 5
+I_VAL: 5, xi_p: e92f5, x_i: 9b74e, THETA_I: 7ff5
+I_VAL: 5, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 7ff5
+I_VAL: 5, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 7ff5
+
+1 6
+I_VAL: 6, xi_p: d5c0c, x_i: e92f5, THETA_I: 3ffe
+I_VAL: 6, yi_p: 88064, y_i: 4dba7, THETA_I: 3ffe
+I_VAL: 6, zi_p: 69a1e, z_i: 6da1c, THETA_I: 3ffe
+
+1 3
+I_VAL: 3, xi_p: c4c00, x_i: d5c0c, THETA_I: 1fd5b
+I_VAL: 3, yi_p: a2be5, y_i: 88064, THETA_I: 1fd5b
+I_VAL: 3, zi_p: f153, z_i: 2eeae, THETA_I: 1fd5b
+
+1 6
+I_VAL: 6, xi_p: d5c0c, x_i: e92f5, THETA_I: 3ffe
+I_VAL: 6, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 6, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3ffe
+
+1 4
+I_VAL: 4, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: ffaa
+I_VAL: 4, yi_p: xxxxxx, y_i: a2be5, THETA_I: ffaa
+I_VAL: 4, zi_p: xxxxxx, z_i: f153, THETA_I: ffaa
+
+1 5
+I_VAL: 5, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: 7ff5
+I_VAL: 5, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 7ff5
+I_VAL: 5, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 7ff5
+
+1 6
+I_VAL: 6, xi_p: e7f87, x_i: e92f5, THETA_I: 3ffe
+I_VAL: 6, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 6, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3ffe
+
+1 4
+I_VAL: 4, xi_p: xxxxxx, x_i: c4c00, THETA_I: ffaa
+I_VAL: 4, yi_p: af0a5, y_i: a2be5, THETA_I: ffaa
+I_VAL: 4, zi_p: xxxxxx, z_i: f153, THETA_I: ffaa
+
+1 6
+I_VAL: 6, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 6, yi_p: xxxxxx, y_i: xxxxxx, THETA_I: 3ffe
+I_VAL: 6, zi_p: xxxxxx, z_i: xxxxxx, THETA_I: 3ffe
+
+1 5
+I_VAL: 5, xi_p: xxxxxx, x_i: xxxxxx, THETA_I: 7ff5
+I_VAL: 5, yi_p: xxxxxx, y_i: af0a5, THETA_I: 7ff5
+I_VAL: 5, zi_p: xxxxxx, z_i: 3ff1a9, THETA_I: 7ff5
+
+1 4
+I_VAL: 4, xi_p: xxxxxx, x_i: c4c00, THETA_I: ffaa
+I_VAL: 4, yi_p: af0a5, y_i: a2be5, THETA_I: ffaa
+I_VAL: 4, zi_p: 3ff1a9, z_i: f153, THETA_I: ffaa
+
+1 4
+I_VAL: 4, xi_p: ba942, x_i: c4c00, THETA_I: ffaa
+I_VAL: 4, yi_p: af0a5, y_i: a2be5, THETA_I: ffaa
+I_VAL: 4, zi_p: 3ff1a9, z_i: f153, THETA_I: ffaa
+
+1 5
+I_VAL: 5, xi_p: xxxxxx, x_i: ba942, THETA_I: 7ff5
+I_VAL: 5, yi_p: a935b, y_i: af0a5, THETA_I: 7ff5
+I_VAL: 5, zi_p: 719e, z_i: 3ff1a9, THETA_I: 7ff5
+
+1 5
+I_VAL: 5, xi_p: c00c7, x_i: ba942, THETA_I: 7ff5
+I_VAL: 5, yi_p: a935b, y_i: af0a5, THETA_I: 7ff5
+I_VAL: 5, zi_p: 719e, z_i: 3ff1a9, THETA_I: 7ff5
+
+1 6
+I_VAL: 6, xi_p: xxxxxx, x_i: c00c7, THETA_I: 3ffe
+I_VAL: 6, yi_p: xxxxxx, y_i: a935b, THETA_I: 3ffe
+I_VAL: 6, zi_p: xxxxxx, z_i: 719e, THETA_I: 3ffe
+
+1 6
+I_VAL: 6, xi_p: bd67a, x_i: c00c7, THETA_I: 3ffe
+I_VAL: 6, yi_p: ac35e, y_i: a935b, THETA_I: 3ffe
+I_VAL: 6, zi_p: 31a0, z_i: 719e, THETA_I: 3ffe
+
