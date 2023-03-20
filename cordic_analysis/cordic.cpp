@@ -40,17 +40,17 @@ private:
         // std::cout << " inv_sign( (yi >> i), (zi < 0) ): " << std::hex << (-1* (inv_sign( (yi >> i), (zi < 0) )) & 0x3FFFFF);
         // std::cout << " xi_p: " << std::hex << ( ( xi - inv_sign( (yi >> i), (zi < 0) ) ) & 0x3FFFFF) << std::endl;
         
-        std::cout << "I_VAL: " << i << " xi_p: " << std::hex << (( xi - inv_sign( (yi >> i), (zi < 0) )) & 0x3FFFFF) << " x_i: " << std::hex << (xi & 0x3FFFFF) << " THETA_I: " << std::hex << (thetai & 0x3FFFFF) << std::endl;
+        // std::cout << "I_VAL: " << i << " xi_p: " << std::hex << (( xi - inv_sign( (yi >> i), (zi < 0) )) & 0x3FFFFF) << " x_i: " << std::hex << (xi & 0x3FFFFF) << " THETA_I: " << std::hex << (thetai & 0x3FFFFF) << std::endl;
         return xi - inv_sign( (yi >> i), (zi < 0) );
     }
     
     int32_t yi_p(int32_t xi, int32_t yi, int32_t zi){
-        std::cout << "I_VAL: " << i << " yi_p: " << std::hex << ( (yi + inv_sign( (xi >> i), (zi < 0) )) & 0x3FFFFF) << " y_i: " << std::hex << (yi & 0x3FFFFF) << " THETA_I: " << std::hex << (thetai & 0x3FFFFF) << std::endl;
+        // std::cout << "I_VAL: " << i << " yi_p: " << std::hex << ( (yi + inv_sign( (xi >> i), (zi < 0) )) & 0x3FFFFF) << " y_i: " << std::hex << (yi & 0x3FFFFF) << " THETA_I: " << std::hex << (thetai & 0x3FFFFF) << std::endl;
         return yi + inv_sign( (xi >> i), (zi < 0) );
     }
     
     int32_t zi_p(int32_t zi){
-        std::cout << "I_VAL: " << i << " zi_p: " << std::hex << ( (zi - inv_sign( thetai , (zi < 0) ) ) & 0x3FFFFF) << " z_i: " << std::hex << (zi & 0x3FFFFF) << " THETA_I: " << std::hex << (thetai & 0x3FFFFF) << std::endl;
+        // std::cout << "I_VAL: " << i << " zi_p: " << std::hex << ( (zi - inv_sign( thetai , (zi < 0) ) ) & 0x3FFFFF) << " z_i: " << std::hex << (zi & 0x3FFFFF) << " THETA_I: " << std::hex << (thetai & 0x3FFFFF) << std::endl;
         return zi - inv_sign( thetai , (zi < 0) );
     }
     
@@ -73,7 +73,7 @@ union float_to_int{
     uint32_t i;
 };
 
-int32_t NUM_DIGITS = 22;
+int32_t NUM_DIGITS = 14;
 
 int32_t fl_f(float number){
 
@@ -125,10 +125,10 @@ float f_fl(int32_t number){
 int main() {
     // Write C++ code here
     
-    int32_t n = 18;
+    int32_t n = 16;
     
-    int32_t input_dist_number = 1;
-    int32_t MSE_RUNS = 1;
+    int32_t input_dist_number = 2000;
+    int32_t MSE_RUNS = 2000;
     
     // Cordic Setup and Processing
     
@@ -146,7 +146,7 @@ int main() {
         }
         
         K = fl_f((float)temp); // Should be precomputed
-        
+
         stages[i] = new Cordic_Stage(i, angle);
     }
     
@@ -165,19 +165,19 @@ int main() {
 
         for (int j = 0; j < input_dist_number; j++){
         
-            float a = 0.75; //(float)dis(gen); // Generate a random input value
+            float a = (float)dis(gen); // Generate a random input value
             
-            std::cout << std::hex << fl_f(a) << std::endl;
+            // std::cout << std::hex << fl_f(a) << std::endl;
             std::tuple<int32_t, int32_t, int32_t> passer = std::make_tuple(K, 0, fl_f(a));
             for (int i = 0; i < n; i++){
                 passer = stages[i]->calc_p(passer); 
-                std::cout << std::endl;
+                // std::cout << std::endl;
             }
             
             float out_val = f_fl(std::get<0>(passer)); // Get Sine Value
             double actual_val = cos( (double)a);
 
-            std::cout << out_val << " " << actual_val << std::endl;
+            // std::cout << out_val << " " << actual_val << std::endl;
 
             double calc = pow((double)out_val - actual_val, 2);
             outputFile << calc << " ";

@@ -112,10 +112,18 @@ module cordic_stage_multi_stage_latency #(
 
     // Counter Register
     reg [2:0] counter;
+    reg en;
 
     initial begin
+        en = 0;
         counter = 0;
         out_reg = 22'hxxxxx;
+    end
+
+    always @ (float_in) begin
+        if (float_in != 22'hxxxxx) begin
+            en <= 1;
+        end
     end
 
     integer j;
@@ -125,10 +133,14 @@ module cordic_stage_multi_stage_latency #(
         pipeline_reg_y <= y_out[2];
         pipeline_reg_z <= z_out[2];
 
-        counter <= (counter == 4) ? 0 : counter + 1;
+        if ( (counter != 0) | (counter != 4 )| en) begin
+            counter <= counter + 1;
+        end
         
         if (counter == 4) begin
             out_reg <= out_wire;
+            counter <= 0;
+            en <= 0;
         end
     end
 
